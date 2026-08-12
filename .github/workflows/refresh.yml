@@ -1,0 +1,43 @@
+name: Refresh stats
+
+# Redraws assets/stats.svg so the counters stay true.
+on:
+  schedule:
+    - cron: '0 */6 * * *' # every six hours
+  workflow_dispatch: # run it by hand from the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/refresh.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-stats
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Render the stats strip
+        env:
+          GH_USERNAME: ${{ github.repository_owner }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/build-stats.mjs
+
+      - name: Commit if it changed
+        run: |
+          git config user.name  'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/stats.svg
+          git diff --quiet --staged || git commit -m 'chore: refresh stats'
+          git push

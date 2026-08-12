@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 424" width="1200" height="424" role="img" aria-labelledby="at ad">
+  <title id="at">About Guruprasad Jena</title>
+  <desc id="ad">Full-stack developer who loves turning ideas into real-world solutions. I build clean, scalable, and impactful applications with modern technologies. Always learning. Always building. Always shipping. Role: Full-Stack Developer. Building: getfreetoolsai.com. Open to: Full-time · Freelance · Remote. Reach me: guruprasadjena.dev@gmail.com.</desc>
+
+  <defs>
+    <linearGradient id="a-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0D0C0B"/>
+      <stop offset=".55" stop-color="#16120F"/>
+      <stop offset="1" stop-color="#1C1713"/>
+    </linearGradient>
+    <clipPath id="a-clip"><rect width="1200" height="424" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#a-clip)">
+    <rect width="1200" height="424" fill="url(#a-bg)"/>
+    <rect width="1200" height="1" fill="#F3EADA" fill-opacity=".06"/>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="423" rx="16" fill="none" stroke="#E58A3C" stroke-opacity=".35"/>
+
+  <style>
+    .rise { animation: rise .7s cubic-bezier(.2,.7,.3,1) backwards; }
+    @keyframes rise { from { opacity: 0; transform: translateY(9px); } }
+    @media (prefers-reduced-motion: reduce) { .rise { animation: none; } }
+  </style>
+
+  <text x="56" y="62" font-family="Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif" font-size="28" letter-spacing="1.5" fill="#E58A3C">ABOUT ME</text>
+  <line x1="228" y1="54" x2="568" y2="54" stroke="#E58A3C" stroke-opacity=".45" stroke-width="1.5" stroke-dasharray="7 6"/>
+
+  <text x="648" y="62" font-family="Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif" font-size="28" letter-spacing="1.5" fill="#E58A3C">AT A GLANCE</text>
+  <line x1="864" y1="54" x2="1144" y2="54" stroke="#E58A3C" stroke-opacity=".45" stroke-width="1.5" stroke-dasharray="7 6"/>
+
+  <line x1="596" y1="84" x2="596" y2="396" stroke="#F3EADA" stroke-opacity=".09"/>
+
+  <!-- the thread connecting the bullet markers -->
+  <line x1="64" y1="103" x2="64" y2="267" stroke="#E58A3C" stroke-opacity=".22" stroke-width="2"/>
+
+    <g class="rise" style="animation-delay:0.10s">
+      <circle cx="64" cy="103" r="5" fill="#E58A3C" fill-opacity=".85"/>
+      <text x="90" y="108" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Inter, Arial, sans-serif" font-size="16" fill="#F3EADA" fill-opacity="0.88" font-weight="400">Full-stack developer who loves turning</text>
+      <text x="90" y="134" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Inter, Arial, sans-serif" font-size="16" fill="#F3EADA" fill-opacity="0.88" font-weight="400">ideas into real-world solutions.</text>
+    </g>
+    <g class="rise" style="animation-delay:0.18s">
+      <circle cx="64" cy="185" r="5" fill="#E58A3C" fill-opacity=".85"/>
+      <text x="90" y="190" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Inter, Arial, sans-serif" font-size="16" fill="#F3EADA" fill-opacity="0.88" font-weight="400">I build clean, scalable, and impactful</text>
+      <text x="90" y="216" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Inter, Arial, sans-serif" font-size="16" fill="#F3EADA" fill-opacity="0.88" font-weight="400">applications with modern technologies.</text>
+    </g>
+    <g class="rise" style="animation-delay:0.26s">
+      <circle cx="64" cy="267" r="5" fill="#E58A3C" fill-opacity=".85"/>
+      <text x="90" y="272" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Inter, Arial, sans-serif" font-size="16" fill="#F3EADA" fill-opacity="0.88" font-weight="400">Always learning. Always building.</text>
+      <text x="90" y="298" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Inter, Arial, sans-serif" font-size="16" fill="#C9541F" fill-opacity="1" font-weight="600">Always shipping.</text>
+    </g>
+    <g class="rise" style="animation-delay:0.16s">
+      <text x="648" y="102" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Inter, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="2.6" fill="#9C8C7A">ROLE</text>
+      <text x="648" y="130" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Mono', Menlo, Consolas, monospace" font-size="16" fill="#F3EADA">Full-Stack Developer</text>
+    </g>
+    <g class="rise" style="animation-delay:0.24s">
+      <text x="648" y="176" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Inter, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="2.6" fill="#9C8C7A">BUILDING</text>
+      <text x="648" y="204" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Mono', Menlo, Consolas, monospace" font-size="16" fill="#F3EADA">getfreetoolsai.com</text>
+    </g>
+    <g class="rise" style="animation-delay:0.32s">
+      <text x="648" y="250" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Inter, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="2.6" fill="#9C8C7A">OPEN TO</text>
+      <text x="648" y="278" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Mono', Menlo, Consolas, monospace" font-size="16" fill="#F3EADA">Full-time · Freelance · Remote</text>
+    </g>
+    <g class="rise" style="animation-delay:0.40s">
+      <text x="648" y="324" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Inter, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="2.6" fill="#9C8C7A">REACH ME</text>
+      <text x="648" y="352" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Mono', Menlo, Consolas, monospace" font-size="16" fill="#F3EADA">guruprasadjena.dev@gmail.com</text>
+    </g>
+</svg>
