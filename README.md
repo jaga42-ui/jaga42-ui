@@ -29,7 +29,8 @@
 <br>
 
 <p align="center">
-  <img height="150" alt="Most-used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaga42-ui&layout=compact&langs_count=8&hide_border=true&hide_title=true&bg_color=00000000&text_color=9C8C7A&icon_color=E58A3C">
+  <!-- shion.dev mirror: the public vercel.app instance is routinely rate-limited to 503 -->
+  <img height="150" alt="Most-used languages" src="https://github-readme-stats.shion.dev/api/top-langs/?username=jaga42-ui&layout=compact&langs_count=8&hide_border=true&hide_title=true&bg_color=00000000&text_color=9C8C7A&icon_color=E58A3C">
 </p>
 
 <br>
