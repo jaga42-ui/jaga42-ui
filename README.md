@@ -22,9 +22,9 @@
 
 | Project | What it does | Stack |
 | :-- | :-- | :-- |
-| **[MealPass](https://github.com/jaga42-ui/event-meal-management-system)** | Full-stack event logistics app that replaces paper meal coupons with tracked digital passes | HTML · JavaScript · PHP |
-| **[climatic-ui](https://github.com/jaga42-ui/climatic-ui)** | Responsive weather interface built in vanilla JavaScript — no framework, no build step | JavaScript · CSS |
-| **[Sahayam](https://github.com/jaga42-ui/Sahayam)** | _Add one line here on the problem it solves_ | JavaScript |
+| **[Sahayam](https://github.com/jaga42-ui/Sahayam)** · [demo](https://jaga42-ui.github.io/Sahayam/) | Blood-emergency network. An SOS is a timeout-driven state machine that widens its search radius and pings a fresh ring of compatible donors until someone answers | React 19 · Express · MongoDB · Socket.IO |
+| **[AAHAARAM](https://github.com/jaga42-ui/AAHAARAM)** · [demo](https://mealpass-portal.vercel.app) | Event meal distribution. QR passes carry a rotating TOTP code over an HMAC-signed payload, so a screenshotted pass stops working | React · Vite · Express · MongoDB |
+| **[Veritas Picks](https://github.com/jaga42-ui/veritas-picks)** · [demo](https://veritas-picks.vercel.app) | Editorial review site — MDX content pipeline, comparison tables, generated sitemap, robots and RSS | Next.js · TypeScript · Tailwind |
 
 <br>
 
