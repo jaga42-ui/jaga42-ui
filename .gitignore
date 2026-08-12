@@ -1,0 +1,6 @@
+# Local preview harness — not part of the profile
+_preview.html
+
+node_modules/
+.DS_Store
+Thumbs.db
